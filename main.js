@@ -13,6 +13,7 @@ let black = document.getElementById('black');
 
 //-----------------Header ----------------------------------------
 h1.innerHTML = 'New DOM Layout'; 
+header.classList.remove('bg-dark');
 header.classList.add('bg-success'); //added class with classList.add() property
 document.querySelector('.bg-success').style.backgroundColor = "red";
 
